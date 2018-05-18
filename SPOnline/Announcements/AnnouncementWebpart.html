@@ -1,0 +1,41 @@
+﻿<script type="text/javascript" src="https://synozentechnologies.sharepoint.com/ip1/SiteAssets/Common/jquery.min.js"></script>
+<script type="text/javascript" src="https://synozentechnologies.sharepoint.com/ip1/SiteAssets/SPOnline/Announcements/AnnouncementWPScript.js"></script>
+<link rel="stylesheet" type="text/css" href="https://synozentechnologies.sharepoint.com/ip1/SiteAssets/SPOnline/Announcements/AnnouncementWPStyle.css" />
+<script type="text/javascript" src="https://synozentechnologies.sharepoint.com/ip1/SiteAssets/Common/jquery.dotdotdot.js"></script>
+
+<style>
+    .b-announcement-link {
+        font-size: 19px;
+        color: rgb(240, 150, 9);
+        font-weight: 100;
+    }
+</style>
+
+<!--Comment below to display as Text-->
+<div style="margin-bottom: -13px;">
+    <img src="https://synozentechnologies.sharepoint.com/ip1/SiteAssets/SPOnline/Announcements/announcements-updates-v2.jpg" style="width: 365px; text-align: justify; padding: 5px;">
+</div>
+<!--Uncomment below to display as Text-->
+<!--<div class="b-announcements-holder header">
+    <h1>Updates</h1>
+    <img src="/SiteAssets/Megaphone_35.png" style="">
+</div>-->
+<div id="b-announcements-holder" class="b-announcements-holder">
+    Loading...
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#b-announcements-holder").GenerateAnnouncementBlock({
+            AnnouncementList: "Announcements",
+            LimitCharCount: 0,
+            Width: "365px",
+            //DisplayPosted: true,
+            //DisplayPostedBy: true,
+            RowLimit: 4
+        });
+        //$('.b-announcements-holder').css("width","320px");
+    });
+
+</script>

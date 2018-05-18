@@ -1,0 +1,110 @@
+﻿.b-announcements-holder {
+    width: 300px;
+    text-align: justify;
+    padding: 5px;
+}
+
+    .b-announcements-holder .postedbyStyle {
+    }
+
+    .b-announcements-holder .b-announcement {
+        padding: 7px;
+    }
+
+    .b-announcements-holder .postedonStyle {
+    }
+
+    .b-announcements-holder .announcementArchiveStyle {
+        text-align: right;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .b-announcements-holder .odd {
+        background-color: #DCDCDC;
+    }
+
+    .b-announcements-holder .even {
+        background-color: #FFFFFF;
+    }
+
+    .b-announcements-holder h1 {
+        font-family: 'Segoe UI Light','Segoe UI','Segoe',Tahoma,Helvetica,Arial,sans-serif;
+        color: #262626;
+        float: left;
+        width: 100px;
+        line-height: 35px;
+        vertical-align: middle;
+    }
+
+    .b-announcements-holder img {
+        height: 35px;
+        width: 35px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/*#b-announcements-holder a:hover {
+    text-decoration: none;
+}
+
+#b-announcements-holder a {
+    color: #404040;
+}*/
+
+#b-announcements-holder .postedonStyle {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+#b-announcements-holder .postedbyStyle {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+#b-announcements-holder .odd {
+    background-color: #FFFFFF;
+    border-top: 1px solid #ececec;
+}
+
+#b-announcements-holder {
+    max-height: 150px;
+}
+
+    #b-announcements-holder .odd:hover {
+        background-color: #ececec;
+        border-top: 1px solid #ececec;
+    }
+
+    #b-announcements-holder .even {
+        background-color: #FFFFFF;
+        border-top: 1px solid #ececec;
+    }
+
+        #b-announcements-holder .even:hover {
+            background-color: #ececec;
+            border-top: 1px solid #ececec;
+        }
+
+.b-announcements-holder .announcementArchiveStyle a:hover {
+    text-decoration: underline;
+}
+
+.b-announcement:hover {
+    background: red;
+}
+
+.b-announcement-title {
+    max-height: 110px;
+    /*height:100px;*/
+}
+
+.b-announcements-holder .announcementArchiveStyle, .b-announcements-holder .announcementArchiveStyle a {
+    color: #F09609 !important;
+    text-decoration: none;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: Segoe UI Light;
+    font-size: 10px;
+    font-weight: 100;
+}
